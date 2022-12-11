@@ -1,8 +1,8 @@
-import { Fragment, useState } from "react"
+import React, { Fragment, useState } from "react"
 import QRCode from "react-qr-code"
 import { Container, Row, Col, Form } from "react-bootstrap"
 
-export default function QRGenerator() {
+export default function QRApp() {
 
     const [qrcodeValue, setQrcodeValue] = useState('')
 
